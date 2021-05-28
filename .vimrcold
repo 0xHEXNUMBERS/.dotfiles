@@ -1,0 +1,22 @@
+filetype on
+augroup FiletypeSpecifics
+    autocmd FileType go source ~/.vim/langs/go.vim
+    autocmd FileType python source ~/.vim/langs/py.vim
+    autocmd FileType yaml source ~/.vim/langs/yaml.vim
+    autocmd FileType c source ~/.vim/langs/c.vim
+    autocmd FileType javascript source ~/.vim/langs/js.vim
+    autocmd FileType html source ~/.vim/langs/html.vim
+    autocmd FileType rust source ~/.vim/langs/rust.vim
+augroup END
+
+set autoindent
+set smartindent
+set relativenumber
+set undofile
+
+
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap jk <Esc>

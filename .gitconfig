@@ -1,0 +1,7 @@
+[user]
+	email = 0xhexnumbers@gmail.com
+	name = 0xHEXNUMBERS
+[alias]
+	graph = log --all --oneline --graph
+[init]
+	defaultBranch = main
