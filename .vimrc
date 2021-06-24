@@ -4,6 +4,8 @@ nnoremap <left> <nop>
 nnoremap <right> <nop>
 inoremap jk <ESC>
 
+set relativenumber
+
 " Godot Settings
 
 if !has_key( g:, 'ycm_language_server' )

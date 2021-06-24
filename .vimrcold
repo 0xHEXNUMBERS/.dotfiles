@@ -12,7 +12,6 @@ augroup END
 set autoindent
 set smartindent
 set relativenumber
-set undofile
 
 
 nnoremap <up> <nop>
