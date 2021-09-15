@@ -4,7 +4,7 @@ nnoremap <left> <nop>
 nnoremap <right> <nop>
 inoremap jk <ESC>
 
-set relativenumber
+set number relativenumber
 
 " Godot Settings
 
